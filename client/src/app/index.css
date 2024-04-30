@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        color: #9293A6;
+    }
+
+    :root {
+        --left-width: 280px;
+        --roulette-wrapper-w: 1310px;
+        --mb-wrapper-w: 1120px;
+    }
+
+    @font-face {
+        font-family: 'Flama';
+        font-style: normal;
+        font-weight: normal;
+        src: url(@/shared/ui/assets/fonts/FlamaRegular.woff) format('woff');
+    }
+
+    @font-face {
+        font-family: 'Flama Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: url(@/shared/ui/assets/fonts/FlamaItalic.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Flama Bold Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: url(@/shared/ui/assets/fonts/FlamaBoldItalic.woff) format('woff');
+    }
+
+    @font-face {
+        font-family: 'Flama-Medium';
+        font-style: normal;
+        font-weight: bold;
+        src: url(@/shared/ui/assets/fonts/FlamaMedium.otf) format('otf');
+    }
+}
+
